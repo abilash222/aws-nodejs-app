@@ -36,8 +36,8 @@ curl http://localhost:3000/regions
 
 ## To get a list of all VPCs within a specific region
 
-curl http://localhost:3000/vpc?region=<region name>
+curl http://localhost:3000/vpc?region='<region name>'
 
 ## To get a list of all Subnets within a specific VPC
 
-curl http://localhost:3000/subnets?region=<regions name>&vpcId=<vpc id>
+curl http://localhost:3000/subnets?region='<regions name>'&vpcId='<vpc id>'
